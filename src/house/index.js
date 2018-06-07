@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './house.css'
 
-export default class house extends Component {
+export default class HouseDetail extends Component {
     state = {}
     render() {
         const house = this.props.house;
