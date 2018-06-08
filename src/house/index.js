@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './house.css';
 import emailIcon from './Email.png';
 import Inquiry from './Inquiry';
+import PropTypes from 'prop-types';
 
 export default class HouseDetail extends Component {
     state = { inquiryShown: false }
@@ -38,3 +39,5 @@ export default class HouseDetail extends Component {
         )
     }
 }
+
+HouseDetail.propTypes = {house: PropTypes.object.isRequired}
