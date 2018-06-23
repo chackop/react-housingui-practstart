@@ -43,7 +43,7 @@ class Inquiry extends Component {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Email address</label>
+          <label htmlFor="email">Email id</label>
           <input
             type="text"
             id="email"
