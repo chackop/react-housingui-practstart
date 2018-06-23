@@ -12,7 +12,7 @@ const FeaturedHouse = (props) => {
             <House house={props.house} />
         </div>
     )
-    return (<div>No featured House at this time</div>)
+    return (<div>No featured House found at this time</div>)
 }
 
 export default FeaturedHouse
