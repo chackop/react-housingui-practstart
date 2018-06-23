@@ -54,7 +54,7 @@ class Inquiry extends Component {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="remarks">Remarks</label>
+          <label htmlFor="remarks">Feedback</label>
           <input
             type="text"
             id="remarks"
