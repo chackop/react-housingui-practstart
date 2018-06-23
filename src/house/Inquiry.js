@@ -32,7 +32,7 @@ class Inquiry extends Component {
     return (
       <form className="mt-2">
         <div className="form-group">
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Full Name</label>
           <input
             type="text"
             className="form-control"
@@ -70,7 +70,7 @@ class Inquiry extends Component {
             this.state.email.length === 0}
           onClick={this.onSubmit}
         >
-          Submit
+          Done
       </button>
       </form>
     );
